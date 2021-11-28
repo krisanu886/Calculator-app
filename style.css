@@ -1,0 +1,65 @@
+ body{
+    /* align-items: center;
+    top: 50%;
+    left: 50%; */
+   background-color: thistle;
+} 
+.container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid green;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+.button{
+    height: 25px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+
+}
+.button:hover{
+    background-color: yellow;
+}
+.operator{
+    color: white;
+    background-color: tomato;
+
+}
+.clear{
+    color: white;
+    background-color: blueviolet;
+    width: 85px;
+    height: 32px;
+}
+.clear:hover{
+    background-color: burlywood;
+}
+.equal{
+    color: white;
+    background-color: tomato;
+    border-color: yellow;
+}
+.equal:hover{
+    background-color: violet;
+}
+.screen{
+    width: 70%;
+    height: 30%;
+    color: black;
+    background-color: turquoise;
+    font-size: medium;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+}
