@@ -12,6 +12,7 @@ function solve(){
     return b
 }
 
+
 function clearScreen(){
     document.getElementById('result').value=""
 }
