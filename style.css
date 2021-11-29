@@ -1,20 +1,145 @@
- body{
-    /* align-items: center;
+ 
+ *{
+     padding: auto;
+     margin: auto;
+     text-align: center;
+ }
+ #container{
+     margin-top: 50px;
+     width: 400px;
+     height: 450px;
+     border:none;
+     border-radius: 8px;
+     background-color: rgb(235, 176, 235);
+     box-shadow: 5px 15px 15px 5px goldenrod;
+ }
+ h1{
+     margin: 20px;
+ }
+ .screen{
+    border: none;
+    background-color: rgb(128, 223, 194);
+    color: rgb(36, 80, 11);
+    font-size: medium;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+ }
+ .clear{
+    border: none;
+    border-radius: 16px;
+    background-color: burlywood;
+    width: 80px;
+    height: 40px;
+    color: rgb(87, 18, 18);
+    font-size: large;
+    margin-bottom: 20px;
+ }
+ .clear:hover{
+     background-color: rgb(60, 255, 0);
+     color: black;
+     border-radius: 15px;
+ }
+ .button{
+     width: 100px;
+     height: 50px;
+     font-size: medium;
+     padding: 10px;
+     color: chartreuse;
+     background-color: black;
+     border: none;
+     border-radius: 15px;
+     margin: 1px;
+ }
+ .button:hover{
+     color: white;
+     background-color: rgb(87, 18, 18);
+     border: 2px solid greenyellow;
+     border-radius: 20px;
+ }
+ .operator{
+     width: 50px;
+     height: 40px;
+     color: black;
+     background-color: chartreuse;
+     border: none;
+     border-radius: 10px;
+     font-size: medium;
+ }
+ .operator:hover{
+     color: white;
+     background-color: rgb(87, 18, 18);
+     border-radius: 8px;
+     border: 2px solid greenyellow;
+ }
+ .equal{
+     width: 150px;
+     height: 50px;
+     font-size: x-large;
+     margin: 15px;
+     color: white;
+     background-color: chartreuse;
+     border-radius: 20px;
+     border: 1px solid rgb(236, 113, 113);
+ }
+ .equal:hover{
+    color: white;
+     background-color: rgb(87, 18, 18);
+     border-radius: 28px;
+     border: 3px solid greenyellow;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* body{
+     align-items: center;
     top: 50%;
-    left: 50%; */
+    left: 50%; 
    background-color: thistle;
+  
 } 
+#container{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
 .container{
     width: 400px;
     height: 400px;
     border: 2px solid green;
     border-radius: 15px;
-    top: 50%;
-    left: 50%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
 }
 .keys{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr); 
     grid-gap: 10px;
     padding: 10px;
 }
@@ -61,4 +186,4 @@
     margin-bottom: 10px;
     border-radius: 8px;
     border: none;
-}
+} */
