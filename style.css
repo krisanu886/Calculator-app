@@ -10,7 +10,7 @@
      border:none;
      border-radius: 8px;
      background-color: rgb(235, 176, 235);
-     box-shadow: 5px 15px 15px 5px goldenrod;
+     box-shadow: 0 0 10px 5px goldenrod;
  }
  h1{
      margin: 20px;
